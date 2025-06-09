@@ -1,0 +1,43 @@
+.trip-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.selectors {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+select {
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #aaa;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.resultado h3 {
+  color: #007bff;
+}
